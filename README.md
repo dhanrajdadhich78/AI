@@ -23,15 +23,15 @@ Planned features & enhancements are:
 - Displaying SUSI skills
 
 
-## Communication
+<!-- ## Communication  -->
 
-Please join our mailing list to discuss questions regarding the project: https://groups.google.com/forum/#!forum/susiai
+<!-- Please join our mailing list to discuss questions regarding the project: https://groups.google.com/forum/#!forum/susiai  -->
 
-Our chat channel is on gitter here: https://gitter.im/fossasia/susi_android
+<!-- Our chat channel is on gitter here: https://gitter.im/fossasia/susi_android  -->
 
-## Screenshots
+<!-- ## Screenshots  -->
 
-<table>
+<!-- <table>
   <tr>
     <td><img src="docs/_static/login.png" height = "480" width="270"></td>
     <td><img src="docs/_static/signup.png" height = "480" width="270"></td>
@@ -47,7 +47,7 @@ Our chat channel is on gitter here: https://gitter.im/fossasia/susi_android
     <td><img src="docs/_static/message_select.png" height = "480" width="270"></td>
     <td><img src="docs/_static/settings.png" height = "480" width="270"></td>
   </tr>
-</table>
+</table> -->
 
 ## Development
 
