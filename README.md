@@ -110,16 +110,21 @@ Please help us follow the best practice to make it easy for the reviewer as well
  * For writing commit messages please read the [COMMITSTYLE](docs/commitStyle.md) carefully. Kindly adhere to the guidelines.
  * Follow uniform design practices. The design language must be consistent throughout the app.
  * The pull request will not get merged until and unless the commits are squashed. In case there are multiple commits on the PR, the commit author needs to squash them and not the maintainers cherrypicking and merging squashes.
- * If the PR is related to any front end change, please attach relevant screenshots in the pull request description.
+ * If the PR is related to any front end change, please attach relevant screenshots in the pull request description.-->
 ### Join the development
 * Before you join development, please set up the project on your local machine, run it and go through the application completely. Press on any button you can find and see where it leads to. Explore. (Don't worry ... Nothing will happen to the app or to you due to the exploring :wink: Only thing that will happen is, you'll be more familiar with what is where and might even get some cool ideas on how to improve various aspects of the app.)
+
 * If you would like to work on an issue, drop in a comment at the issue. If it is already assigned to someone, but there is no sign of any work being done, please free to drop in a comment so that the issue can be assigned to you if the previous assignee has dropped it entirely.
+
 ## For Developers: Adding Fabric API KEY
+
 1. Go to AndroidManifest.xml
 Replace the fabric_api_key with the Real Fabric API Key
 Add: <meta-data android:name="io.fabric.ApiKey" android:value="fabric_api_key" />
+
 2. Open the app/fabric.properties:
 Replace the fabric_api_key with your actual Fabric API Secret.
+
 3. Open MainApplication.java,
 	a) After adding the API KEYS and API Secret
 	Uncomment the line: Fabric.with(this, new Crashlytics())
@@ -127,8 +132,8 @@ Replace the fabric_api_key with your actual Fabric API Secret.
 	b) Add imports :
 		import com.crashlytics.android.Crashlytics;
 		import io.fabric.sdk.android.Fabric;
-		-->
-<!-- 4. Uncomment the line in the app/gradle
+
+4. Uncomment the line in the app/gradle
 	Line: apply plugin: 'io.fabric'
 
 ## For Testers: Testing the App
