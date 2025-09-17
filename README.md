@@ -1,7 +1,7 @@
 # Upgrading SUSI AI for Android App
 This application is getting added with the new features to understand the technology capability and enabling more security and personalized data processing features.
-This is moved (git fork of [Susi_Android](https://github.com/fossasia/susi_android.git) ) as for the demonestrate and implement new features.
-<!-- | Branch Name | Status |
+<!-- This is moved (git fork of [Susi_Android](https://github.com/fossasia/susi_android.git) ) as for the demonestrate and implement new features.
+| Branch Name | Status |
 |-------------|--------|
 | Master      |[![CircleCI](https://circleci.com/gh/fossasia/susi_android/tree/master.svg?style=svg)](https://circleci.com/gh/fossasia/susi_android/tree/master)|
 | Development |[![CircleCI](https://circleci.com/gh/fossasia/susi_android.svg?style=svg&branch=development)](https://circleci.com/gh/fossasia/susi_android)|
@@ -13,7 +13,7 @@ This is moved (git fork of [Susi_Android](https://github.com/fossasia/susi_andro
 [![Mailing List](https://img.shields.io/badge/Mailing%20List-FOSSASIA-blue.svg)](mailto:susiai@googlegroups.com)
 [![Twitter Follow](https://img.shields.io/twitter/follow/susiai_.svg?style=social&label=Follow&maxAge=2592000?style=flat-square)](https://twitter.com/susiai_) -->
 
-The main feature of the app is to provide a conversational interface to provide intelligent answers using the loklak/AskSusi infrastructure. The app also offers login functionalities to connect to other services and store personal data. Additionally, the application uses data provided by the user's phone to improve Susi answers. Geolocation information, for example, helps to offer better answers related to questions about "things nearby".
+The main feature of the app is to provide a conversational interface to provide intelligent answers <!-- using the loklak/AskSusi infrastructure-->. The app also offers login functionalities to connect to other services and store personal data. Additionally, the application uses data provided by the user's phone to improve answers. Geolocation information, for example, helps to offer better answers related to questions about "things nearby".
 
 ## Roadmap
 
@@ -52,11 +52,11 @@ Planned features & enhancements are:
 
 ## Development
 
-A native Android app using both Java and Kotlin for writing code. The answers for user queries comes from [SUSI Server](https://github.com/fossasia/susi_server) which further uses skills defined in [SUSI Skill Data](https://github.com/fossasia/susi_skill_data).
+A native Android app using both Java and Kotlin for writing code. The answers for user queries comes from <!-- [SUSI Server](https://github.com/fossasia/susi_server) --> server which further uses skills defined in Data Model<!-- [SUSI Skill Data](https://github.com/fossasia/susi_skill_data) -->.
 
 ### Android App Development Set up
 
-Please find info about the set up of the Android app in your development environment [here](docs/Android_App_Setup.md).
+Please find info about the set up of the Android app in your development environment [here] <!-- (docs/Android_App_Setup.md)-->.
 
 ### Libraries used and their documentation
 
